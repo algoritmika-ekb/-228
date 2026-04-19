@@ -36,3 +36,12 @@ class Player(GameSprite):
 back = (200, 255, 255)
 window = display.set_mode((600, 500))
 window.fill(back)
+
+game = True
+finish = False
+clock = clock.Clock()
+FPS = 60
+
+racket1 = Player ('racker.png', 30, 200, 4, 50, 150)
+racket2 = Player ('racker.png', 520, 200, 4, 50, 150)
+ball = GameSprite('tennis_ball.png', 200, 200, 4, 50, 50)
