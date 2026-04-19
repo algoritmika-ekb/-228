@@ -45,3 +45,7 @@ FPS = 60
 racket1 = Player ('racker.png', 30, 200, 4, 50, 150)
 racket2 = Player ('racker.png', 520, 200, 4, 50, 150)
 ball = GameSprite('tennis_ball.png', 200, 200, 4, 50, 50)
+font.init()
+font = font.Font(None, 35)
+lose1 = font.render('PLAYER 1 LOSE', True, (100, 0, 0))
+lose2 = font.render('PLAYER 2 LOSE', True, (100, 0, 0))
